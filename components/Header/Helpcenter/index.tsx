@@ -1,8 +1,8 @@
 import React from "react";
+import Link from "next/link";
+import { helpCenterMenu } from "@/constants/header";
 import { stylesConfig } from "@/utils/functions";
 import styles from "./styles.module.scss";
-import { helpCenterMenu } from "@/constants/header";
-import Link from "next/link";
 
 const classes = stylesConfig(styles, "header-helpcenter");
 

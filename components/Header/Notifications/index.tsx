@@ -1,9 +1,9 @@
 import React from "react";
-import { stylesConfig } from "@/utils/functions";
-import styles from "./styles.module.scss";
-import { Typography } from "@/library";
 import Image from "next/image";
 import images from "@/assets/images";
+import { Typography } from "@/library";
+import { stylesConfig } from "@/utils/functions";
+import styles from "./styles.module.scss";
 
 const classes = stylesConfig(styles, "header-notifications");
 
