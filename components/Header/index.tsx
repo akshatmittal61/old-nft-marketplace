@@ -5,6 +5,7 @@ import Discover from "./Discover";
 import HelpCenter from "./Helpcenter";
 import Notifications from "./Notifications";
 import Profile from "./Profile";
+import SideBar from "@/components/Sidebar";
 import { Typography } from "@/library";
 import { stylesConfig } from "@/utils/functions";
 import styles from "./styles.module.scss";
@@ -69,13 +70,9 @@ const Header: React.FC = () => {
 					<div className={classes("-container-right__menu")}>
 						<FiMenu onClick={() => setShowSidePane((p) => !p)} />
 						{showSidePane ? (
-							<div
-								className={classes(
-									"-container-right__menu-sidepane"
-								)}
-							>
-								Side Pane
-							</div>
+							<SideBar
+								setShowSidePane={() => setShowSidePane(false)}
+							/>
 						) : null}
 					</div>
 				</div>
