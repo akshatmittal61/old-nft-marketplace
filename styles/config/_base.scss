@@ -6,6 +6,7 @@
 	box-sizing: border-box;
 	transition: all var(--transition-time) ease-in-out;
 	scroll-behavior: smooth;
+	-webkit-tap-highlight-color: none;
 }
 
 :root,
