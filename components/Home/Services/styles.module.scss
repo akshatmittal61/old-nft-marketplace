@@ -1,0 +1,34 @@
+.home-services {
+	width: 100%;
+	margin: 3rem auto;
+
+	&-box {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 36px;
+		padding: 0 24px;
+
+		&-item {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+			gap: 24px;
+			text-align: center;
+			padding: 0 24px;
+
+			img {
+				width: 128px;
+				height: 128px;
+			}
+
+			&-step {
+				border-radius: 500px;
+				padding: 8px 24px;
+				background-color: var(--color-icon);
+				color: var(--color-shadow-dark);
+			}
+		}
+	}
+}
