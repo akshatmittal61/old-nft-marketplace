@@ -26,7 +26,7 @@
 		}
 
 		&--outlined {
-			background-color: transparent;
+			background-color: var(--color-bg);
 			color: var(--theme-black);
 			border: 1px solid var(--theme-black);
 		}
