@@ -1,0 +1,44 @@
+.home-hero {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	padding: 48px 5%;
+
+	&-box {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 0 auto;
+
+		&-left {
+			width: 50%;
+			display: flex;
+			justify-content: center;
+			align-items: flex-start;
+			flex-direction: column;
+			gap: 24px;
+
+			h1 {
+				font-size: 5rem;
+				line-height: 1;
+			}
+
+			p {
+				margin-bottom: 2rem;
+			}
+		}
+
+		&-right {
+			width: 50%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			img {
+				object-fit: contain;
+				width: 100%;
+			}
+		}
+	}
+}
